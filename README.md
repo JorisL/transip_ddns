@@ -10,7 +10,7 @@ This is an example docker-compose entry
 version: "3"
 services:
   transip_ddns:
-    image: jorisl/transip_ddns
+    image: jorisl42/transip_ddns
     networks:
       - default
     environment:
